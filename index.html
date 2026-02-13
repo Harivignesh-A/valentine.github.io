@@ -39,6 +39,13 @@
             left: 55%;
             top: 60%;
         }
+
+        img {
+            margin-top: 20px;
+            width: 300px;
+            border-radius: 20px;
+            box-shadow: 0px 0px 20px pink;
+        }
     </style>
 </head>
 <body>
@@ -60,7 +67,10 @@
         });
 
         function sayYes() {
-            document.body.innerHTML = "<h1>Yayyyy ❤️ I Love You 😍</h1>";
+            document.body.innerHTML = `
+                <h1>Yayyyy ❤️ She Said Yes 😍</h1>
+                <img src="image1.jpg" alt="Our Photo">
+            `;
         }
     </script>
 
